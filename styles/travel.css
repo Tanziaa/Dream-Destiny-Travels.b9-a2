@@ -15,6 +15,10 @@
     align-items: center;
 }
 
+.mobile-icon {
+    display: none;
+}
+
 
 .title {
     padding-left: 210px;
@@ -60,7 +64,7 @@ nav li a {
     background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png'), url('/Images/Rectangle\ 2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 140px;
+    margin-left: 180px;
     margin-right: 140px;
     border-radius: 26px;
     margin-bottom: 100px;
@@ -155,6 +159,43 @@ main {
     margin-top: 20px;
 }
 
+/* choose your destination section */
+
+.destination {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.destination-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+
+.destination-img {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    margin-left: 180px;
+}
+
+.destination-img-3 {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 150px;
+    width: 100%;
+    height: 100%;
+    margin-left: 180px;
+}
+
 
 
 
@@ -179,6 +220,7 @@ main {
         padding-top: 0px;
         padding-bottom: 5px;
         justify-content: space-between;
+
 
 
     }
