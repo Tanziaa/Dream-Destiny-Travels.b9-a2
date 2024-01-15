@@ -3,16 +3,85 @@
 * {
     font-family: 'Mulish', sans-serif;
 }
-.container {
-    display: flex;
-}
 
 
-.header {
+/* navbar styles */
+
+.nav-section {
     display: flex;
-}
-.nav > ul{
-    display: flex;
+    padding-top: 40px;
+    padding-bottom: 50px;
     justify-content: space-between;
+    align-items: center;
+}
+
+
+.title {
+    padding-left: 210px;
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 80px;
+
+}
+
+nav li a {
     text-decoration: none;
+    color: #424247;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.home {
+    color: #FF5400;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.travels {
+    color: #FF5400;
+}
+
+/* banner section */
+
+
+.banner {
+    text-align: center;
+    padding-top: 105px;
+    background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png'), url('/Images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.info {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    padding-bottom: 150px;
 }
