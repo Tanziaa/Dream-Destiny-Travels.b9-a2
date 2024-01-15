@@ -24,7 +24,7 @@
 }
 
 
-nav>ul {
+nav > ul {
     display: flex;
 }
 
@@ -60,6 +60,10 @@ nav li a {
     background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png'), url('/Images/Rectangle\ 2.png');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: 140px;
+    margin-right: 140px;
+    border-radius: 26px;
+    margin-bottom: 100px;
 
 }
 
@@ -68,6 +72,7 @@ nav li a {
     font-size: 64px;
     font-weight: 800;
     margin-bottom: 25px;
+    margin-top: 200px;
 }
 
 .banner-description {
@@ -83,5 +88,56 @@ nav li a {
     padding: 16px;
     align-items: flex-start;
     gap: 24px;
-    padding-bottom: 150px;
+    padding-bottom: 250px;
+    border: none;
+    margin-right: 25px;
+}
+
+.find {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+.w {
+    width: 174px;
+    height: 45px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+
+/* responsive media query */
+
+@media screen and (max-width: 600px) {
+
+    .nav-section {
+        flex-direction: column;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        justify-content: space-between;
+
+
+    }
+
+    nav > ul {
+       
+    }
+
+    .title {
+        padding-left: 10px;
+        color: #131318;
+        font-size: 16px;
+        font-weight: 800;
+    }
+
+    banner {
+        flex-direction: column;
+    }
 }
