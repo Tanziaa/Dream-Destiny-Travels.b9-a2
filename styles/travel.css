@@ -131,6 +131,57 @@ main {
     margin-bottom: 100px;
 }
 
+.deals-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-left: 20px;
+}
+
+
+.frame {
+    padding-left: 20px;
+}
+
+.deals-and-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.deals-price {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 20px;
+}
+
+.details-badge {
+    width: 579px;
+    height: 340px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: relative;
+    bottom: 450px;
+    left: 740px;
+}
+
+.book {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    margin-left: 20px;
+}
+
 .tour-title {
     color: #131318;
     font-size: 40px;
@@ -262,7 +313,7 @@ main {
     margin-top: 30px;
     padding-left: 30px;
     padding-top: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 /* deals and discount section */
@@ -275,29 +326,25 @@ main {
     margin-bottom: 20px;
 }
 
+.deals-and-discount .deals-picture {
+    gap: 0px;
+}
+
 .deals-description {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    margin-bottom: 80px;
+    margin-bottom: 150px;
 }
 
 .deals-img-1 {
+    margin-top: 100px;
     margin-left: 170px;
     margin-bottom: 20px;
 }
 
-.deals-img-2 {
-    margin-left: 170px;
-    margin-bottom: 20px;
-}
-
-.deals-img-3 {
-    margin-left: 170px;
-    margin-bottom: 20px;
-}
 
 .packages {
     border-radius: 8px;
@@ -309,9 +356,8 @@ main {
     font-size: 15px;
     font-weight: 800;
     border: none;
-    margin-top: 20px;
     margin-left: 650px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 /* perfect place styles */
@@ -327,9 +373,13 @@ main {
 }
 
 .place-video-container {
-    margin-bottom: 100px;
-    margin-left: 50px;
+    margin-left: 0;
+    
+}
 
+video {
+    width: 100%;
+    height: auto;
 }
 
 .perfect-place-container {
@@ -363,7 +413,7 @@ main {
     display: flex;
     gap: 30px;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .newsletter {
@@ -508,39 +558,109 @@ main {
 
 
 
-
-
-
-
-
-
-
-
-
 /* responsive media query */
+
+/* responsive media query for small devices */
 
 @media screen and (max-width: 600px) {
 
     .nav-section {
         flex-direction: column;
-        padding-top: 0px;
-        padding-bottom: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         justify-content: space-between;
-
-
-
     }
 
-    nav>ul {}
 
     .title {
         padding-left: 10px;
-        color: #131318;
-        font-size: 16px;
+        font-size: 24px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .banner {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .banner-title {
+        font-size: 22px;
         font-weight: 800;
     }
 
-    banner {
-        flex-direction: column;
+    .info {
+        padding: 10px;
+        display: block;
+        padding-top: 5px;
     }
+
+    .popular-tours-container {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 50px;
+    }
+
+    .tour-content {
+        padding-right: 20px;
+    }
+
+    .read {
+        margin-bottom: 10px;
+    }
+
+    .tour-img-container {
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .tour-img-container img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .destination {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .destination-description {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .destination-img,
+    .destination-img-3 {
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .destination-img img,
+    .destination-img-3 img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .destination-img-3 {
+        padding-bottom: 20px;
+    }
+
 }
