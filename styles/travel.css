@@ -370,6 +370,9 @@ main {
     margin-left: 70px;
     border-radius: 16px;
     border: 1px solid #FF5400;
+    width: 474px;
+    height: 480px;
+
 }
 
 .newsletter-title {
@@ -425,7 +428,7 @@ main {
     border: none;
     margin-top: 20px;
     margin-left: 40px;
-    margin-bottom: 40px;
+    padding-bottom: 0px;
 }
 
 .newsletter-img {
@@ -438,22 +441,65 @@ main {
     width: 324px;
     height: 120px;
     transform: rotate(-19.628deg);
-    padding: 10px;
+    position: relative;
+    bottom: 200px;
+    left: 340px;
 }
 
-.discount-badge h3 {
+.discount-badge p {
     color: #FFF;
     text-align: center;
     font-size: 24px;
     font-weight: 400;
+    padding-top: 10px;
 }
 
-.discount-badge h2 {
+.discount-badge h3 {
     color: #FFF;
     font-size: 32px;
     font-weight: 800;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
+.footer {
+    width: 1880px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-title {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.footer-description {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.social-img-container {
+    padding-left: 850px;
+    padding-bottom: 40px;
+}
+
+.footer .social-img-container {
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+    width: 900px;
+    margin-bottom: 40px;
+}
+
+.rights-reserved {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 850px;
+}
 
 
 
