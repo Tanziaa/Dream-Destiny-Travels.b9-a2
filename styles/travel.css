@@ -32,14 +32,27 @@ input:focus {
     font-weight: 800;
 }
 
+.title:hover {
+    color: #FF5400;
+}
+
+.travels:hover {
+    color: #131318;
+}
+
 #bars {
     display: none;
+}
+
+.home:hover {
+    background-color: #131318;
 }
 
 nav>ul {
     display: flex;
     padding-right: 80px;
 }
+
 
 nav li {
     list-style: none;
@@ -229,6 +242,10 @@ main {
     margin-bottom: 20px;
 }
 
+#destination-icon {
+    color: #FF5400;
+}
+
 .destination-description {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
@@ -372,6 +389,13 @@ main {
 
 /* perfect place styles */
 
+
+.place-color {
+    color: #FF5400;
+}
+.place-color:hover {
+    color:#4586a0;
+}
 .place-title {
     color: #131318;
     font-size: 40px;
@@ -427,10 +451,12 @@ video {
     gap: 30px;
     justify-content: space-between;
     margin-bottom: 100px;
+    padding-right: 20px;
 }
 
 .newsletter {
     margin-left: 70px;
+    padding-right: 20px;
     border-radius: 16px;
     border: 1px solid #FF5400;
     width: 474px;
@@ -496,6 +522,7 @@ video {
 
 .newsletter-img {
     margin-top: 30px;
+    margin-right: 50px;
 }
 
 .discount-badge {
@@ -547,6 +574,10 @@ button:hover {
     font-weight: 800;
 }
 
+.story-heading:hover {
+    color: #4586a0;
+}
+
 .story-description {
     color: #5A5A5D;
     font-size: 16px;
@@ -555,6 +586,7 @@ button:hover {
 
 .stories {
     gap: 10px;
+    text-align: center;
 }
 
 .star {
@@ -872,6 +904,7 @@ textarea {
 
     .newsletter-form {
         padding-right: 20px;
+        margin-left: 20px;
         border: 10px;
         width: 375px;
     }
@@ -892,7 +925,7 @@ textarea {
         width: 30%;
         height: 250px;
         border-radius: 16px;
-        margin-right: 400px;
+        margin-right: 500px;
         margin-bottom: 130px;
     }
 
@@ -915,6 +948,11 @@ textarea {
 
     .extra-section {
         margin-top: 30px;
+    }
+
+    .story-heading:hover {
+        color: #FF5400;
+
     }
 
 
