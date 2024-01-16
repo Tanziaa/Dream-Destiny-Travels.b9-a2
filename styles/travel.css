@@ -38,6 +38,7 @@ input:focus {
 
 nav>ul {
     display: flex;
+    padding-right: 80px;
 }
 
 nav li {
