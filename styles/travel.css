@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet>');
 
+/* shared styles */
 * {
     font-family: 'Mulish', sans-serif;
+}
+
+input:focus {
+    color: #FF5400;
 }
 
 
@@ -113,8 +118,8 @@ nav li a {
 }
 
 .w {
-    width: 174px;
-    height: 45px;
+    width: 170px;
+    height: 35px;
     border-radius: 8px;
     background: #FFF;
 }
@@ -914,7 +919,7 @@ textarea {
 
     .footer {
         margin-top: 180px;
-        width: 510px;
+        width: 375px;
         height: 309px;
     }
 
