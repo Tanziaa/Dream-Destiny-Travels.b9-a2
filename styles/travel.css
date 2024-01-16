@@ -27,6 +27,9 @@
     font-weight: 800;
 }
 
+#bars {
+    display: none;
+}
 
 nav>ul {
     display: flex;
@@ -101,7 +104,7 @@ nav li a {
     border-radius: 8px;
     background: #FF5400;
     width: 174px;
-    height: 52px;
+    height: 58px;
     cursor: pointer;
     color: #FFF;
     font-size: 16px;
@@ -228,6 +231,7 @@ main {
     line-height: 26px;
     margin-bottom: 50px;
 }
+
 
 .destination-img {
     display: flex;
@@ -373,8 +377,10 @@ main {
 }
 
 .place-video-container {
-    margin-left: 0;
-    
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+
 }
 
 video {
@@ -384,6 +390,7 @@ video {
 
 .perfect-place-container {
     display: flex;
+    gap: 30px;
 
 }
 
@@ -413,7 +420,7 @@ video {
     display: flex;
     gap: 30px;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .newsletter {
@@ -421,7 +428,7 @@ video {
     border-radius: 16px;
     border: 1px solid #FF5400;
     width: 474px;
-    height: 480px;
+    height: 550px;
 
 }
 
@@ -512,6 +519,112 @@ video {
     padding-bottom: 10px;
 }
 
+
+button:hover {
+    background-color: #4586a0;
+}
+
+/* extra section */
+
+.story-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.story-title:hover {
+    color: #4586a0;
+}
+
+.story-heading {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.story-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.stories {
+    gap: 10px;
+}
+
+.star {
+    font-size: 40px;
+}
+
+.star:hover {
+    color: gold;
+}
+
+/* extra section-2 */
+
+.customer-review-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+
+.review-form-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.review-form-container:hover {
+    background-color: #acacb6;
+}
+
+h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: c;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 215px;
+    height: 35px;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 800;
+    border: none;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-bottom: 0px;
+}
+
+
+
 .footer {
     width: 1880px;
     height: 502px;
@@ -571,6 +684,12 @@ video {
         justify-content: space-between;
     }
 
+    .nav-section,
+    #bars {
+        display: flex;
+        justify-content: space-between;
+    }
+
 
     .title {
         padding-left: 10px;
@@ -578,19 +697,12 @@ video {
     }
 
     nav {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        display: none;
     }
 
-    nav ul {
+    #bars {
         display: flex;
         justify-content: space-around;
-    }
-
-    nav li {
-        margin-right: 0;
-        margin-bottom: 10px;
     }
 
     .banner {
@@ -604,7 +716,6 @@ video {
     }
 
     .info {
-        padding: 10px;
         display: block;
         padding-top: 5px;
     }
@@ -663,4 +774,180 @@ video {
         padding-bottom: 20px;
     }
 
+    .choose-us-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .choose-us-card-container .card {
+        width: calc(100% - 40px);
+        margin-bottom: 0px;
+    }
+
+    .card-1,
+    .card-2 {
+        margin-left: 20px;
+        width: 90%;
+    }
+
+    .card-3 {
+        display: none;
+    }
+
+
+    .deals-img-1 {
+        margin-top: 10px;
+        margin-left: 0;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 500px;
+    }
+
+    .deals-picture {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .packages {
+        display: none;
+    }
+
+    .details-badge {
+        width: 100%;
+        left: 0;
+    }
+
+
+    .perfect-place-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .place-video-container {
+        margin-left: 0;
+        width: 335px;
+        height: 200px;
+        border-radius: 16px;
+    }
+
+
+    video {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+
+    .newsletter-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .newsletter,
+    .newsletter-img {
+        width: 100%;
+        margin: 0;
+    }
+
+
+    .newsletter {
+        margin-bottom: 20px;
+    }
+
+
+    .discount-badge p,
+    .discount-badge h3 {
+        padding: 10px;
+    }
+
+
+    .newsletter-form {
+        padding-right: 20px;
+        border: 10px;
+        width: 375px;
+    }
+
+
+    .name,
+    .email,
+    .subscribe {
+        width: 280px;
+        height: 52px;
+        border-radius: 8px;
+        margin-left: 40px;
+    }
+
+
+    .newsletter-img {
+        margin-top: 10px;
+        width: 30%;
+        height: 250px;
+        border-radius: 16px;
+        margin-right: 400px;
+        margin-bottom: 130px;
+    }
+
+
+    .discount-badge {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 10px;
+        bottom: 100;
+        right: 40;
+    }
+
+
+    .discount-badge p,
+    .discount-badge h3 {
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    .extra-section {
+        margin-top: 30px;
+    }
+
+
+    .footer {
+        margin-top: 180px;
+        width: 510px;
+        height: 309px;
+    }
+
+
+    .footer-title {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+
+    .footer-description {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+
+
+    .social-img-container {
+        padding-left: 0;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+
+    .footer .social-img-container {
+        padding: 0;
+        border-bottom: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .rights-reserved {
+        padding-left: 0;
+        text-align: center;
+    }
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dream Destiny Travels</title>
     <link rel="stylesheet" href="styles/travel.css">
+    <link rel="icon" href="Images/plane-circle-check-solid.svg">
     <script src="https://kit.fontawesome.com/7d2b77e1fd.js" crossorigin="anonymous"></script>
 </head>
 
@@ -14,8 +15,8 @@
         <h3 class="title"><i class="fa-solid fa-plane-circle-check"></i>Dream Destiny
             <span class="travels">Travels</span>
         </h3>
+        <i id="bars" class="fa-solid fa-bars"></i>
         <nav>
-            <i class="mobile-icon" class="fa-solid fa-bars"></i>
             <ul>
                 <li><a class="home" href="">Home</a></li>
                 <li><a href="">Packages</a></li>
@@ -23,6 +24,7 @@
                 <li><a href="">Blog</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
+
         </nav>
     </header>
     <!-- banner -->
@@ -42,7 +44,8 @@
         <section class="popular-tours-container">
             <div class="tour-content">
                 <h3 class="tour-title">Our Popular Tours</h3>
-                <p class="popular-tour-description">Discover Unforgettable Adventures: Our Popular Tours Await Your Adventurous Spirit!</p>
+                <p class="popular-tour-description">Discover Unforgettable Adventures: Our Popular Tours Await Your
+                    Adventurous Spirit!</p>
                 <ul>
                     <li>Immerse in handpicked destinations tailored for exceptional moments.</li>
                     <li>Navigate each journey with knowledgeable guides enhancing your travel insights.</li>
@@ -129,12 +132,16 @@
                     <img class="frame" src="Images/Frame (1).png" alt="">Max : 10
                     <img class="frame" src="Images/Frame (2).png" alt="">Malaysia
                     <h3 class="deals-title">Tour To Santorini</h3>
-                    <p class="deals-and-description">Indulge in the allure of Santorini with our captivating tour.<br> Immerse yourself in breathtaking
-                    landscapes, ancient charm,<br> and vibrant culture. Let us guide you through<br> an enchanting exploration
-                    of this Greek paradise.</p>
+                    <p class="deals-and-description">Indulge in the allure of Santorini with our captivating tour.<br>
+                        Immerse yourself in breathtaking
+                        landscapes, ancient charm,<br> and vibrant culture. Let us guide you through<br> an enchanting
+                        exploration
+                        of this Greek paradise.</p>
                     <p class="deals-price">Price: $1300-$1500</p>
                     <button class="book">Book Now</button>
-                    </div> 
+                </div>
+            </div>
+
             </div>
             <button class="packages">See All Packages</button>
         </section>
@@ -154,7 +161,7 @@
             </div>
 
             <div class="place-video-container">
-                <video controls src="Images/mountain.mp4" width="500px" height="400px"></video>
+                <video controls src="Images/mountain.mp4" width="500px" height="100px"></video>
             </div>
         </section>
 
@@ -182,6 +189,48 @@
                 </div>
             </div>
         </section>
+
+        <!-- extra section -->
+
+        <section class="extra-section">
+
+            <h2 class="story-title">OUR STORY</h2>
+            <div class="stories">
+                <p class="star">★★★★★</p>
+                <p class="story-heading">OUR MISSION</p>
+                <p class="story-description">To personalize each trip with experiences that are unique, <br>authentic and a
+                    million miles from mass tourism.<br> We care about quality and provide the best.</p>
+
+                <p class="star">★★★★★</p>
+                <p class="story-heading">EXPERIENCE</p>
+                <p class="story-description">An excellent reputation for personal services, quality,<br> and value through
+                    extensive research and <br>a comprehensive database backed up by <br>years of experience in the travel
+                    industry.</p>
+
+                <p class="star">★★★★★</p>
+                <p class="story-heading">SERVICES</p>
+                <p class="story-description">We pride ourselves on your satisfaction.<br> A large percentage of our
+                    bookings are from repeat <br>clientele while much of our new business is from <br>word-of-mouth
+                    recommendations.</p>
+            </div>
+        </section>
+
+        <section class="customer-review-form">
+            <div class="review-form-container">
+                <h3>Leave a Review</h3>
+                <form class="form">
+                    <label for="rating">Rating:</label>
+                    <input type="number" id="rating" name="rating" min="1" max="5" required>
+                    
+                    <label for="review">Review:</label>
+                    <textarea id="review" name="review" rows="4" required placeholder="Share your experience and help others make informed decisions.Thankyou!"></textarea>
+                    
+                    <button class="submit-button" type="submit">Submit Review</button>
+                </form>
+
+            </div>
+            
+        </section>
     </main>
 
     <footer class="footer">
@@ -189,7 +238,8 @@
             <h3 class="footer-title"><i class="fa-solid fa-plane-circle-check"></i>Dream Destiny
                 <span class="travels">Travels</span>
             </h3>
-            <p class="footer-description">Discover limitless adventures with Explore Your Travel—where every journey unfolds a new chapter of
+            <p class="footer-description">Discover limitless adventures with Explore Your Travel—where every journey
+                unfolds a new chapter of
                 exploration.</p>
         </div>
 
