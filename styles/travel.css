@@ -19,7 +19,7 @@ input:focus {
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    top: 2px;
+    top: 0px; 
     background-color: #FFF;
 }
 
@@ -741,8 +741,6 @@ textarea {
         padding-top: 10px;
         padding-bottom: 10px;
         justify-content: space-between;
-        position: sticky;
-        background-color: #FFF;
     }
 
     .nav-section,
