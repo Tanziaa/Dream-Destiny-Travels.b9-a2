@@ -15,9 +15,12 @@ input:focus {
 .nav-section {
     display: flex;
     padding-top: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 2px;
+    background-color: #FFF;
 }
 
 .mobile-icon {
@@ -393,9 +396,11 @@ main {
 .place-color {
     color: #FF5400;
 }
+
 .place-color:hover {
-    color:#4586a0;
+    color: #4586a0;
 }
+
 .place-title {
     color: #131318;
     font-size: 40px;
@@ -716,10 +721,12 @@ textarea {
 @media screen and (max-width: 600px) {
 
     .nav-section {
-        flex-direction: column;
+        display: flex;
         padding-top: 10px;
         padding-bottom: 10px;
         justify-content: space-between;
+        position: sticky;
+        background-color: #FFF;
     }
 
     .nav-section,
@@ -739,8 +746,7 @@ textarea {
     }
 
     #bars {
-        display: flex;
-        justify-content: space-around;
+        margin-right: 30px;
     }
 
     .banner {
@@ -958,7 +964,7 @@ textarea {
 
     .footer {
         margin-top: 180px;
-        width: 375px;
+        width: 390px;
         height: 309px;
     }
 
