@@ -778,7 +778,29 @@ textarea {
     .info {
         display: block;
         padding-top: 5px;
+        
     }
+
+    .w {
+        margin-left: 10px;
+        width: 230px;
+        position: relative;
+    }
+
+    .info 
+    .dropbar {
+        align-items: center;
+        color: #5A5A5D;
+        margin-top: 20px;
+        border: none;
+        margin-left: 10px;
+        width: 250px;
+    }
+
+    .find {
+        margin-top: 25px;
+    }
+
 
     .popular-tours-container {
         flex-direction: column;
@@ -788,10 +810,12 @@ textarea {
 
     .tour-content {
         padding-right: 20px;
+        margin-left: 50px;
     }
 
     .read {
-        margin-bottom: 10px;
+        margin-bottom: 50px;
+        margin-left: 10px;
     }
 
     .tour-img-container {
@@ -803,6 +827,7 @@ textarea {
     .tour-img-container img {
         max-width: 100%;
         height: auto;
+        margin-left: 6px;
     }
 
     .destination {
@@ -828,11 +853,9 @@ textarea {
         width: 100%;
         height: auto;
         margin-bottom: 10px;
+        margin-left: 15px;
     }
 
-    .destination-img-3 {
-        padding-bottom: 20px;
-    }
 
     .choose-us-card-container {
         flex-direction: column;
@@ -847,8 +870,9 @@ textarea {
 
     .card-1,
     .card-2 {
-        margin-left: 20px;
+        margin-left: 15px;
         width: 90%;
+        margin-bottom: 50px;
     }
 
     .card-3 {
@@ -867,6 +891,7 @@ textarea {
     .deals-picture {
         margin-top: 0;
         margin-bottom: 0;
+        margin-left: 5px;
     }
 
     .packages {
@@ -876,6 +901,7 @@ textarea {
     .details-badge {
         width: 100%;
         left: 0;
+        padding-bottom: 40px;
     }
 
 
@@ -886,23 +912,19 @@ textarea {
 
 
     .place-video-container {
-        margin-left: 0;
         width: 335px;
         height: 200px;
         border-radius: 16px;
-    }
-
-
-    video {
-        width: 100%;
-        height: auto;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+        margin-right: 35px;
     }
 
 
     .newsletter-section {
         flex-direction: column;
         align-items: center;
+        width: 350px;
+        margin-left: 20px;
     }
 
 
@@ -925,20 +947,27 @@ textarea {
 
 
     .newsletter-form {
-        padding-right: 20px;
-        margin-left: 20px;
+        margin-left: 15px;
+        padding-bottom: 30px;
         border: 10px;
         width: 375px;
     }
 
 
     .name,
-    .email,
-    .subscribe {
-        width: 280px;
+    .email {
+        width: 230px;
         height: 52px;
         border-radius: 8px;
         margin-left: 40px;
+    }
+
+    .subscribe {
+        width: 250px;
+        height: 52px;
+        border-radius: 8px;
+        margin-left: 40px;
+        margin-bottom: 10px;
     }
 
 
