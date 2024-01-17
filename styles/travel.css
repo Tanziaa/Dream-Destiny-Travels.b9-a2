@@ -86,7 +86,7 @@ nav li a {
 .banner {
     text-align: center;
     padding-top: 105px;
-    background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    /* background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png); */
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 180px;
@@ -140,6 +140,21 @@ nav li a {
     border-radius: 8px;
     background: #FFF;
 }
+
+.dropbar {
+    width: 174px;
+    height: 55px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.placeholder {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
 
 /* main styles */
 
@@ -426,6 +441,7 @@ video {
 .perfect-place-container {
     display: flex;
     gap: 30px;
+    margin-left: 40px;
 
 }
 
